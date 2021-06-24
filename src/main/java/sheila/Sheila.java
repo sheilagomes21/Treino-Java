@@ -1,7 +1,21 @@
 package sheila;
-
+//Parei no video em 1:11:51 segundos
 public class Sheila {
     public static void main (String[] args) {
+        //if - condicional= Serve pra verificar uma condição - Faz uma pergunta, um hardware ou software
+        // if = se
+        //else = senão
+        //simulação de uma pergunta:
+
+        String modo = "curto";
+
+        if (modo == "curto") {
+            calcularAreaModoCurto();
+        }
+        else {
+            calcularAreaModoExtenso();
+        }
+
       calcularAreaModoCurto();
       calcularAreaModoExtenso();
 
